@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private float _moveSpeed = 5;
 
     // Update is called once per frame
     void Update()
@@ -33,6 +30,6 @@ public class Player : MonoBehaviour
 
         inputVector = inputVector.normalized;
         Vector3 moveDir =  new Vector3(inputVector.x, 0f, inputVector.y);
-        transform.position += moveDir;
+        transform.position += _moveSpeed*moveDir;
     }
 }
