@@ -7,6 +7,6 @@ public class ClearCounter : MonoBehaviour
     // Start is called before the first frame update
     public void Interact()
     {
-        
+        Debug.Log("Interract");
     }
 }
