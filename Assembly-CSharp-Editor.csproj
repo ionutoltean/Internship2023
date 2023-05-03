@@ -737,6 +737,9 @@
      <Reference Include="Unity.RenderPipelines.Core.Runtime">
      <HintPath>C:\UnityProjects\Internship 2023 - KitchenChaos\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>C:\UnityProjects\Internship 2023 - KitchenChaos\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Burst.Editor">
      <HintPath>C:\UnityProjects\Internship 2023 - KitchenChaos\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
@@ -871,6 +874,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\UnityProjects\Internship 2023 - KitchenChaos\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>C:\UnityProjects\Internship 2023 - KitchenChaos\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Editor">
      <HintPath>C:\UnityProjects\Internship 2023 - KitchenChaos\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
